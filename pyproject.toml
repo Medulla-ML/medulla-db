@@ -29,7 +29,7 @@ classifiers = [  #! Update me
 
 
 [tool.poetry.plugins."medulla.tool"]
-"db" = "medulla-db.tool:Tool"
+"db" = "medulla-db.tool:run"
 
 
 
