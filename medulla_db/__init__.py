@@ -16,4 +16,9 @@ def get_version() -> str:
         return "unknown"
 
 
+def run():
+    print("framework.typeA.plugin1 starting")
+    print("framework.typeA.plugin1 finishing")
+
+
 version: str = get_version()

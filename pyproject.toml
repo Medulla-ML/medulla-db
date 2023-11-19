@@ -28,9 +28,15 @@ classifiers = [  #! Update me
 ]
 
 
+[tool.poetry.plugins."medulla.tool"]
+"db" = "medulla-db.tool:Tool"
+
+
 
 [tool.poetry.dependencies]
 python = "^3.9"
+future = "^0.18.3"
+setuptools = "^68.2.2"
 
 [tool.poetry.dev-dependencies]
 bandit = "^1.7.1"
